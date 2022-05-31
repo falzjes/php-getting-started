@@ -22,4 +22,9 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig');
 });
 
+
+$app->get('/page', function() use($app) {
+  return $app['twig']->render('page.twig');
+});
+
 $app->run();
