@@ -39,10 +39,13 @@
 
 
 a.btn.btn-lg {
-  background-color: #ff00ff;
   background: linear-gradient(40deg, pink, purple);
 }
 
-a.btn-btn-l .btn-inner{
-  background-color: #ffff00;
+span.btn-inner {
+    background-color: white;
+    padding: 10px 16px;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 6px;
 }
