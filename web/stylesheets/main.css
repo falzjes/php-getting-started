@@ -34,3 +34,15 @@
 .jumbotron .lang-logo img {
   max-width: 100%;
 }
+
+
+
+
+a.btn.btn-lg {
+  background-color: #ff00ff;
+  background: linear-gradient(40deg, pink, purple);
+}
+
+a.btn-btn-l .btn-inner{
+  background-color: #ffff00;
+}
