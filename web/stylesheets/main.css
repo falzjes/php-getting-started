@@ -38,8 +38,11 @@
 
 
 
+
 a.btn.btn-lg {
-  background: linear-gradient(40deg, pink, purple);
+  background: linear-gradient(40deg, pink, #C7CEEA);
+  padding: 0px;
+  box-shadow: 1.5em 1.5em 20px rgb(199 206 234 / 60%);
 }
 
 span.btn-inner {
