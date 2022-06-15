@@ -1,6 +1,6 @@
 .jumbotron {
-  background: #8c2f6b;
-  color: white;
+  background: #dda0dd;
+  color: midnightblue;
   padding-bottom: 80px;
 }
 .jumbotron .btn-primary {
@@ -20,23 +20,7 @@
 }
 .navbar + .jumbotron {
   margin-top: -20px;
-
 }
-.jumbotron .lang-logo {
-  display: block;
-  background: #B01302;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  border: 2px solid white;
-}
-
-.jumbotron .lang-logo img {
-  max-width: 100%;
-}
-
 
 a.btn.btn-lg {
   background: linear-gradient(40deg, pink, #C7CEEA);
@@ -74,8 +58,17 @@ a:hover, a:active {
   background: linear-gradient(40deg, pink, #C7CEEA);
   padding: 3px;
   box-shadow: 1.5em 1.5em 20px rgb(199 206 234 / 60%);
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 120px
+}
+
+.rainbow-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 15px;
+  right: 86px;
+  top: 117px;
 }
 
 .rainbow-circle span {
@@ -87,5 +80,21 @@ a:hover, a:active {
 
 .rainbow-circle.medium{
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 65px;
+  left: 65px;
+  width:75px;
+  height: 75px;
+}
+
+.rainbow-circle.small {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 65px;
+  top: 40px;
+}
+
+.navbar-inverse {
+  background-color: midnightblue;
+  border-color: white;
+}
