@@ -20,6 +20,7 @@
 }
 .navbar + .jumbotron {
   margin-top: -20px;
+
 }
 .jumbotron .lang-logo {
   display: block;
@@ -31,12 +32,10 @@
   margin: auto;
   border: 2px solid white;
 }
+
 .jumbotron .lang-logo img {
   max-width: 100%;
 }
-
-
-
 
 
 a.btn.btn-lg {
@@ -90,4 +89,7 @@ a:hover, a:active {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+.jumbotron .lang-logo  {
+    url:("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDgwMCA4MDAiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDgwMCA4MDAiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xIj48cGF0aCBkPSJNNzcxLjksNDAwYzAsMjA1LjMtMTY2LjYsMzcxLjktMzcxLjksMzcxLjlTMjguMSw2MDUuMywyOC4xLDQwMFMxOTQuNywyOC4xLDQwMCwyOC4xICAgUzc3MS45LDE5NC43LDc3MS45LDQwMHoiIGZpbGw9IiNGMDYyOTIiLz48L2c+PGcgaWQ9IkxheWVyXzIiPjxwYXRoIGQ9Ik00MTUuMiwxOTIuMWwzOC40LDExOC4xICAgYzIuMSw2LjYsOC4zLDExLjEsMTUuMiwxMS4xSDU5M2MxNS41LDAsMjEuOSwxOS44LDkuNCwyOC45bC0xMDAuNSw3M2MtNS42LDQuMS04LDExLjMtNS44LDE3LjlsMzguNCwxMTguMSAgIGM0LjgsMTQuNy0xMi4xLDI3LTI0LjYsMTcuOWwtMTAwLjUtNzNjLTUuNi00LjEtMTMuMi00LjEtMTguOCwwbC0xMDAuNSw3M2MtMTIuNSw5LjEtMjkuNC0zLjEtMjQuNi0xNy45bDM4LjQtMTE4LjEgICBjMi4xLTYuNi0wLjItMTMuOC01LjgtMTcuOWwtMTAwLjUtNzNjLTEyLjUtOS4xLTYuMS0yOC45LDkuNC0yOC45aDEyNC4yYzYuOSwwLDEzLjEtNC41LDE1LjItMTEuMWwzOC40LTExOC4xICAgQzM4OS42LDE3Ny4zLDQxMC40LDE3Ny4zLDQxNS4yLDE5Mi4xeiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIxNiIvPjwvZz48L3N2Zz4="), auto;
 }
