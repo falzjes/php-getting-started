@@ -17,6 +17,8 @@
 }
 .jumbotron h1 {
   font-size: 40px;
+  font-family: 'Fascinate', cursive;
+  color: #ff00ff;
 }
 .navbar + .jumbotron {
   margin-top: -20px;
