@@ -12,14 +12,16 @@
   background: #7646c1;
 }
 .jumbotron p {
-  color: #d9ccee;
+  color: black;
   max-width: 75%;
   margin: 1em auto 2em;
 }
 .jumbotron h1 {
-  font-size: 40px;
-  font-family: 'Dancing Script', cursive;
-  color: #ff00ff;
+  font-size: 60px;
+  font-family: 'Titan One', cursive;
+  color: midnightblue;
+  background-image: linear-gradient(to left, blue, green); 
+  text-shadow: 0 0 3px blue, 0 0 5px snow;
 }
 .navbar + .jumbotron {
   margin-top: -20px;
