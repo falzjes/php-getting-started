@@ -110,16 +110,16 @@ a:hover, a:active {
   width: 100%;
 }
 
-#customers td, #customers th {
+#name td, #name th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#name tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+#name tr:hover {background-color: #ddd;}
 
-#customers th {
+#name th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
